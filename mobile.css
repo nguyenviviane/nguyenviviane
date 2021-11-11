@@ -1,0 +1,210 @@
+/* GLOBAL */
+html,
+body {
+    font-size: 1em;
+}
+
+#entete_principal {
+    margin: auto;
+    width: 100%;
+}
+
+/* HEADER */
+.wrapper_principal {
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.wrapper_principal_logo {
+    width: 25%;
+    margin-left: 5%;
+}
+
+/* NAV */
+.wrapper_principal_nav {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+}
+
+/* SIGN UP */
+.wrapper_principal_sign {
+    width: auto;
+    margin-right: 5%;
+
+}
+
+.wrapper_principal_nav_item {
+    border-bottom: 2px solid #F2F2F2;
+    height: 40px;
+}
+
+/* CSS ANIMATION */
+.wrapper_principal_nav_item:hover {
+    border-top: none;
+    border-bottom: 2px solid #0065fc;
+}
+
+.wrapper_principal_sign:hover {
+    border-top: none;
+}
+
+/*++++++++++*/
+/* SECTION recherche */
+.recherche {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.recherche_form_button {
+    display: none;
+}
+
+.recherche_form_icon {
+    width: 3.18em;
+}
+
+#recherche_form_input {
+    width: 61.33%;
+}
+
+.recherche_form_button_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #0065fc;
+    border-radius: 13px;
+    color: #ffffff;
+    height: 2.81em;
+    padding: 0.31em;
+    width: 2.81em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* FILTERS */
+.recherche_filter {
+    flex-wrap: wrap;
+}
+
+.recherche_filter_title {
+    margin-right: 80%;
+    margin-bottom: 1%;
+}
+
+.recherche_filter_type {
+    margin: 2% 2% 1% 0;
+}
+
+.recherche_info {
+    margin-top: 0;
+}
+
+/* HOSTING AND POP */
+.container_hosting_n_Pop {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 1990px;
+
+}
+
+/* HOSTING */
+#container_hosting {
+    width: 100%;
+    margin-right: 0;
+    flex: none;
+    height: 1400px;
+    width: 100%;
+    border-radius: 0;
+    order: 2;
+    background-color: #ffffff;
+
+}
+
+.container_hosting_cards {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 1250px;
+
+}
+
+.container_hosting_link_card {
+    width: 90%;
+    height: 200px;
+}
+
+.see_more {
+    background-color: #ffffff;
+}
+
+/* MOST POPULAR */
+.container_most_popular {
+    border-radius: 0;
+    flex: none;
+    height: 590px;
+    width: 100%;
+    order: 1;
+}
+
+.container_most_popular_title {
+    width: 90%;
+}
+
+.container_most_popular_cards {
+    height: 455px;
+}
+
+.container_most_popular_link-card {
+    width: 90%;
+    height: 145px;
+}
+
+/* SECTION ACTIVITIES */
+#activities {
+    margin: 5% 5% 0 5%;
+}
+
+.activities_container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1260px;
+}
+
+.activities_link_width {
+    width: 100%;
+    height: auto;
+
+}
+
+.activities_container_column {
+    width: 100%;
+    height: 408px;
+}
+
+.activities_link_container,
+.activities_container_pomegues,
+.activities_container_frioul,
+.activities_container_notre_dame,
+.activities_container_longchamp {
+    height: 134px;
+}
+
+/* FOOTER */
+.main_footer {
+    height: 485px;
+    margin-top: 10%;
+}
+
+.main_footer_container {
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+}
